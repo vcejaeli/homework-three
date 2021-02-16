@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttc);
+  font-family: Proxima;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/images-home/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.hero .travel-fly-main {
+  width: 714px;
+  height: 227px;
+  margin: 0 auto;
+  margin-top: 86px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero .travel-fly-main .travel-fly-content h1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.hero .travel-fly-main .travel-fly-content p {
+  font-weight: 900;
+  margin-top: 25px;
+  margin-bottom: 52px;
+}
+.hero .travel-fly-main .travel-fly-content button {
+  font-family: Gill;
+  font-weight: bolder;
+  font-size: large;
+  border: none;
+  width: 121px;
+  height: 40px;
+  color: #fff;
+  background-color: #79ADDC;
+}
+.hero .travel-fly-main .travel-fly-content button:hover {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  font-family: Proxima;
+}
+.hero .travel-fly-main .travel-fly-content button:focus {
+  background-color: white;
+  color: #79ADDC;
+  outline: none;
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 160px;
+  padding-right: 160px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  font-size: 5vh;
+}
+.promo-tours .promo {
+  background-color: peru;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  height: 304px;
+  width: 236px;
+  margin-right: 50px;
+  padding-top: 60px;
+}
+.promo-tours .promo h1 {
+  font-size: 65px;
+  font-family: Proxima;
+  margin-top: -15px;
+}
+.promo-tours .promo h2 {
+  font-size: 35px;
+  font-family: Proxima;
+  margin-top: -25px;
+}
+.promo-tours .promo .learn-more-btn {
+  width: 130px;
+  height: 40px;
+  font-size: 16px;
+  font-family: Gill;
+  font-weight: bolder;
+  background-color: #79ADDC;
+  border-radius: 22px;
+  border-style: none;
+  color: #fff;
+  margin-top: 34px;
+  transition-duration: 0.2s;
+}
+.promo-tours .promo .learn-more-btn:hover {
+  border-radius: 12px;
+  font-size: 18px;
+}
+.promo-tours .promo .learn-more-btn:focus {
+  background-color: white;
+  color: #79ADDC;
+  outline: none;
+}
+.promo-tours #israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/images-home/home-tour-israel.jpg);
+}
+.promo-tours #usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/images-home/home-tour-usa.jpg);
+}
+.promo-tours #australia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/images-home/home-tour-australia.jpg);
+}
+
+nav {
+  width: 980px;
+  height: 63px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav .links {
+  width: 524px;
+  height: 19px;
+  align-self: center;
+  display: flex;
+}
+nav .links a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+}
+nav .links .bar {
+  cursor: default;
+  pointer-events: none;
+  text-decoration: none;
+  color: #79ADDC;
+}
+
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 194px;
+  padding-right: 210px;
+  max-width: 100%;
+  font-size: 5vh;
+}
+.booking-form .whole-booking {
+  width: 895px;
+  height: 890px;
+  font-family: Gill;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #000;
+}
+.booking-form .whole-booking input {
+  border: 1px solid #79ADDC;
+  font-family: Gill;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.booking-form .whole-booking #whole-header {
+  font-family: Proxima;
+  font-weight: lighter;
+  font-size: 60px;
+}
+.booking-form .whole-booking .bf-top2 {
+  height: 136px;
+  margin-bottom: 20px;
+}
+.booking-form .whole-booking .bf-top2 #boxes-top-A {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.booking-form .whole-booking .bf-top2 #boxes-top-A #boxleftA {
+  width: 344px;
+  height: 58px;
+}
+.booking-form .whole-booking .bf-top2 #boxes-top-A #boxrightA {
+  width: 453px;
+  height: 58px;
+}
+.booking-form .whole-booking .bf-top2 #boxes-top-B {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .whole-booking .bf-top2 #boxes-top-B #boxleftB {
+  width: 344px;
+  height: 58px;
+}
+.booking-form .whole-booking .bf-top2 #boxes-top-B #boxrightB {
+  width: 453px;
+  height: 58px;
+}
+.booking-form .whole-booking .bf-mid2 {
+  height: 136px;
+  margin-bottom: 20px;
+}
+.booking-form .whole-booking .bf-mid2 h2 {
+  width: 115px;
+  height: 58px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.booking-form .whole-booking .bf-mid2 .midC {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.booking-form .whole-booking .bf-mid2 .midC #mid-box-C {
+  height: 58px;
+  width: 698px;
+}
+.booking-form .whole-booking .bf-mid2 .midD {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .whole-booking .bf-mid2 .midD #mid-box-D {
+  height: 58px;
+  width: 698px;
+}
+.booking-form .whole-booking .bf-bottom3 {
+  width: 895px;
+  height: 58px;
+  margin-bottom: 20px;
+}
+.booking-form .whole-booking .bf-bottom3 .drop3 {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .whole-booking .bf-bottom3 .drop3 .drop3one {
+  width: 223px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking-form .whole-booking .bf-bottom3 .drop3 .drop3two {
+  width: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking-form .whole-booking .bf-bottom3 .drop3 .drop3three {
+  width: 223px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking-form .whole-booking .bf-bottom3 .drop3 .dropbtn {
+  text-align: left;
+  background-color: #fff;
+  color: black;
+  width: 103px;
+  height: 58px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #79ADDC;
+  background-image: url(../images/images-home/form/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 60px 15px;
+  background-size: 3vh;
+}
+.booking-form .whole-booking .bf-message {
+  height: 242px;
+  width: 895px;
+  margin-bottom: 37px;
+}
+.booking-form .whole-booking .bf-message #messagebox {
+  height: 100%;
+  width: 100%;
+}
+.booking-form .whole-booking .formbtn {
+  display: flex;
+  justify-content: center;
+}
+.booking-form .whole-booking .formbtn #bf-btn {
+  width: 890px;
+  height: 61px;
+  border-radius: 22px;
+  border: none;
+  font-size: 15px;
+  font-family: Gill;
+  font-weight: bolder;
+  outline: none;
+  color: #fff;
+  background-color: #79ADDC;
+  transition-duration: 0.2s;
+}
+.booking-form .whole-booking .formbtn #bf-btn:hover {
+  border-radius: 12px;
+  font-size: 18px;
+}
+.booking-form .whole-booking .formbtn #bf-btn:focus {
+  background-color: white;
+  color: #79ADDC;
+  border: 2px solid #79ADDC;
+  outline: none;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  max-width: 100%;
+  font-size: 2vh;
+  background-color: #79ADDC;
+}
+footer .footerBody {
+  margin: 0 auto;
+  height: 42px;
+  width: 984px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .footerBody p {
+  text-align: center;
+}
+footer .footerBody .socialIcon {
+  height: 26px;
+  width: 125px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footerBody .socialIcon img {
+  height: 26px;
+  width: auto;
+}

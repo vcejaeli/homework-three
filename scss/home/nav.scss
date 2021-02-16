@@ -1,0 +1,60 @@
+nav {
+    width: 980px;
+    height: 63px;
+    margin: 0 auto;
+    // background-color: salmon;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #fff solid 2px;
+
+
+
+    .logo {
+        width: 136px;
+        height: 42px;
+        background-image: url(../images/logo/logo-white.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: contain;
+        // background-color: seagreen;
+        // I think the logo img has the wrong font weight
+    }
+
+
+
+    .links {
+        width: 524px;
+        height: 19px;
+        // background-color: lime;
+        align-self: center;
+        display: flex;
+
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            margin: auto;
+        }
+
+        .bar {
+            cursor: default;
+            pointer-events: none;
+            text-decoration: none;
+            color: $site-blue;
+            // i cant seem to adjust the height.. 
+        }
+
+    }
+    
+    
+
+}
+
+
+// since we couldn't target the nav to push down 
+// we went to parent (hero) and added padding (top:20px)
+
+//use display flex on parent to stack side by side (nav)
+//justify content moves horizontally
+
+//border bottom added the underline!

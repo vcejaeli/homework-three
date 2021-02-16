@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "structure.scss";
+
+//home (DONT forget folder name)
+@import "home/hero.scss";
+@import "home/promo-tours.scss";
+@import "home/nav.scss";
+
+//form
+@import "form/booking-form.scss";
+
+//footer
+@import "footer/footer.scss";
